@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
+
+        html, body {
+            height: 100%;
+        }
+        body {
+            background-color: #999999;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+1,7c7c7c+92 */
+            background: #000000; /* Old browsers */
+            background: -moz-radial-gradient(center, ellipse cover,  #000000 1%, #7c7c7c 92%); /* FF3.6-15 */
+            background: -webkit-radial-gradient(center, ellipse cover,  #000000 1%,#7c7c7c 92%); /* Chrome10-25,Safari5.1-6 */
+            background: radial-gradient(ellipse at center,  #000000 1%,#7c7c7c 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#7c7c7c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        }
+
+        .calculator {
+            background: #2e2d2d;
+            padding: 15px;
+            width: 300px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 4px 0 #e1e1e1, 0 6px 8px rgb(0, 0, 0.85);
+        }
+    
+        .result {
+            background-color: #cecfac;
+            color: #3b3b32;
+            width: 90%;
+            margin: 8px 0 20px 10px;
+            text-align: right;
+            height: 50px;
+            line-height: 50px;
+            font-size: 36px;
+            padding-right: 10px;
+            font-family: 'Share', cursive;
+            overflow: hidden;
+            box-shadow: inset 0 0 8px rgb(0, 0, 0.5), inset 0 2px 0 #a1a1a1;
+            
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+        
+
+        }
+
+        ul li {
+            list-style: none;
+            background-color: #4e4e4e;
+            padding: 10px;
+            width: 15%;
+            float: left;
+            color: #fff;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+            box-shadow: 0 2px 0 #e5e5e5, 0 2px 5px rgb(0, 0, 0.85);
+        }
+
+        ul li:active {
+            position: relative;
+            top: 5px;
+            box-shadow: inset 0 1px 2px rgb(0, 0, 0.5);
+        }
+
+        ul li:nth-child(16) {
+            height: 75px;
+            line-height: 75px;
+        }
+
+        ul li:last-child {
+            margin-top: -48px;
+            width: 65%;
+        }
+
+        .signiture {
+            color: #fff;
+            font-size: 0.75rem;
+            text-align: right;
+            position: relative;
+            top: 4px;
+            right: 5px;
+            z-index: -1;
+            font-family: 'Share', cursive;
+        }
